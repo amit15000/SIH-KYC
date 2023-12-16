@@ -394,6 +394,7 @@ div_section4 {
 .laws-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 100vw;
   align-items: center;
   margin-top: 5rem;
@@ -413,7 +414,7 @@ div_section4 {
   padding-top: 3rem;
   background-color: #d9d9d9;
   display: flex;
-
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
@@ -426,6 +427,7 @@ div_section4 {
   display: flex;
   padding: 3rem;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
   width: 17.75rem;
